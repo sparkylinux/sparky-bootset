@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=System boot services
+Name[en]=System boot services
+Name[pl]=Systemowe usługi startowe
+Comment[en]=This lets you configure what system services will be started at boot time
+Comment[pl]=Wybór usług systemowych uruchamianych wraz ze startem systemu
+Exec=remsu "sparky-terminal -e rcconf"
+Icon=gnome-control-center
+Categories=System
+Terminal=False
+Type=Application
