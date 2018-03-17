@@ -1,1 +1,1 @@
-?package(sparky-bootset):needs="X11" section="Applications/System"        title="System boot services" command="remsu 'sparky-terminal -e rcconf'" icon="gnome-control-center"
+?package(sparky-bootset):needs="X11" section="Applications/System"        title="System boot services" command="remsu /usr/bin/sparky-bootset" icon="gnome-control-center"
